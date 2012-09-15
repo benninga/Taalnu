@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @browse.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @browse.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_browse_path(@browse) %> |
+<%= link_to 'Back', browses_path %>
